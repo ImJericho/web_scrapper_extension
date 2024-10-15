@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "web-scrapper-project"
+version = "0.1.0"
+description = ""
+authors = ["Vivek Patidar <77988917+ImJericho@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+selenium = "^4.25.0"
+bs4 = "^0.0.2"
+langchain = "^0.3.3"
+langchain-ollama = "^0.2.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.3.0"
+html5lib = "^1.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
